@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Центр изучения английского языка</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Центр изучения английского языка</h1>
+        <p>Добро пожаловать на наш ресурс, где вы можете учить английский на своем уровне!</p>
+    </header>
+
+    <section id="levels">
+        <h2>Выберите ваш уровень</h2>
+        <div class="level-card" onclick="showMaterials('beginner')">
+            <h3>Начинающий</h3>
+            <p>Начните свой путь изучения английского здесь.</p>
+        </div>
+        <div class="level-card" onclick="showMaterials('intermediate')">
+            <h3>Средний</h3>
+            <p>Развивайте навыки владения языком на новом уровне.</p>
+        </div>
+        <div class="level-card" onclick="showMaterials('advanced')">
+            <h3>Продвинутый</h3>
+            <p>Совершенствуйте свое владение английским с продвинутыми материалами.</p>
+        </div>
+    </section>
+
+    <section id="materials" style="display: none;">
+        <h2 id="selected-level">Выбранный уровень: </h2>
+        <div class="material-card">
+            <h3>Видеоуроки</h3>
+            <p>Смотрите увлекательные видеоуроки для улучшения навыков аудирования и разговорной речи.</p>
+        </div>
+        <div class="material-card">
+            <h3>Тексты для чтения</h3>
+            <p>Исследуйте статьи и тексты для улучшения навыков чтения.</p>
+        </div>
+        <div class="material-card">
+            <h3>Интерактивные упражнения</h3>
+            <p>Практикуйте то, что узнали, с интерактивными упражнениями и тестами.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>Мы не представляем конкретные курсы. Наша цель - предоставить бесплатные материалы для изучения английского всем желающим.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
